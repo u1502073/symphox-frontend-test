@@ -1,0 +1,31 @@
+
+.self {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding: 20px;
+  border-left: 1px solid rgba(143, 135, 135, 0.445);
+  border-right: 1px solid rgba(143, 135, 135, 0.445);
+  border-bottom: 1px solid rgba(143, 135, 135, 0.445);
+  .image {
+    width: 80px;
+    height: 80px;
+  }
+  .content {
+    padding-left:20px;
+    .up {
+      padding-bottom: 10px;
+      display: flex;
+      justify-content: space-between;
+      .status {
+        float: left;
+      }
+      .date {
+        float: right;
+      }
+    }
+  }
+}
+.green {
+  color: rgb(28, 168, 9);
+}
