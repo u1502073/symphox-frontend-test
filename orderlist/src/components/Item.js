@@ -24,6 +24,7 @@ const Item = ({ data }) => {
           {data.name}
         </div>
       </div>
+      <div className={theme.arrowRight}/>
     </div>
   )
 }
