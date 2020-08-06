@@ -1,0 +1,22 @@
+
+.self {
+  width: 600px;
+}
+.title {
+  padding: 15px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  background-color: rgba(143, 135, 135, 0.274);
+  border-left: 1px solid rgba(143, 135, 135, 0.445);
+  border-right: 1px solid rgba(143, 135, 135, 0.445);
+  border-bottom: 1px solid rgba(143, 135, 135, 0.445);
+  .decorator {
+    border-left: 10px solid rgb(31, 167, 3);
+    height: 30px;
+  }
+  .text {
+    
+    padding-left: 10px;
+  }
+}
